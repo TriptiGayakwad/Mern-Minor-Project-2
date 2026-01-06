@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>My Notes</h1>
+        </header>
+
+        <div class="input-section">
+            <textarea id="note-input" placeholder="Write a new note..."></textarea>
+            <button id="add-btn" onclick="addNote()">Add Note</button>
+            <p id="error-msg" class="hidden">Warning: Note cannot be empty!</p> </div>
+
+        <div id="notes-container" class="notes-grid">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
