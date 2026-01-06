@@ -2,6 +2,11 @@
 
 A simple web app to write and manage your notes.
 
+## 🌐 Live Demo
+
+You can try my app here: [Live Demo](https://triptigayakwad.github.io/Mern-Minor-Project-2/)
+
+
 ## What it does
 
 - Write new notes
